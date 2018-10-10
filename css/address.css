@@ -1,0 +1,61 @@
+header{
+    width: 100%;
+    height: 0.45rem;
+    background: linear-gradient(90deg,#0af,#0085ff);
+    display: flex;
+    color: #fff;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0.1rem;
+}
+header a {
+    font-size: .18rem;
+    color: #ffffff;
+}
+header h1{
+    font-size: .18rem;
+    position: absolute;
+    margin-left: .18rem;
+}
+section .personAddress {
+    height: 1rem;
+    border-bottom: 1px solid #ccc;
+    z-index: 9999;
+    background: #fff;
+}
+.personAddress .person {
+    width: 90%;
+    height: 100%;
+    padding-left: .1rem;
+    box-sizing: border-box;
+    float: left;
+}
+.person div {
+    line-height: 50px;
+    font-weight: 900;
+    height: 50%;
+    font-size: .18rem;
+}
+.person span {
+    font-size: .15rem;
+    font-weight: normal;
+    color: #666;
+}
+.person p {
+    font-size: .15rem;
+    color: #333333;
+}
+.personAddress .del {
+    width: 10%;
+    height: 100%;
+    line-height: 99px;
+    text-align: center;
+    font-size: .18rem;
+    float: right;
+    color: red;
+}
+footer a {
+    color: #00aaff;
+    margin: 0 auto;
+    font-size: .18rem;
+}

@@ -1,0 +1,143 @@
+header{
+    height: 12rem;
+    background: url("../image/index2-01.jpeg") no-repeat top,url("../image/index2-05.jpeg") no-repeat bottom;
+    background-size: 100vw 160vw;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+}
+#swiper2{
+    width: 2.2rem;
+    height: 0.22rem;
+    border-radius: 0.15rem;
+    font-size: 0.12rem;
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    overflow: hidden;
+    text-align: center;
+    line-height: 0.22rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -1.1rem;
+    top: 2.5rem;
+}
+header .zhoubang{
+    width: 90%;
+    height: 5.8rem;
+    position: absolute;
+    left: 50%;
+    top: 2.8rem;
+    margin-left: -45%;
+    border: 2px solid #66aff2;
+    border-radius: 0.1rem;
+    box-sizing: border-box;
+    background: url("../image/index2-02.png")no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-around;
+    line-height: 0.5rem;
+}
+header .zhoubang .zb{
+    width: 50%;
+    height: 0.5rem;
+    font-size: 0.18rem;
+    color: #fff;
+    text-align: center;
+    padding-left: 0.3rem;
+}
+header .xiuchang{
+    width: 3.35rem;
+    background: url("../image/index2-03.png") no-repeat;
+    background-size: 100%;
+    margin-left: 0.2rem;
+    margin-top: 3.2rem;
+    position: relative;
+}
+header .xiuchang p{
+    font-size: 0.12rem;
+    color: #68a0f9;
+    position: absolute;
+    left: 50%;
+    margin-left: -0.55rem;
+    top: 0.9rem;
+}
+ .joinus{
+    width: 3.75rem;
+    height: 2rem;
+    background: url("../image/index2-04.png") no-repeat;
+    background-size: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -4.2rem;
+}
+.joinus p{
+    width: 0.75rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    background-color: #e94619;
+    border-radius: 0.2rem;
+    font-size: 0.12rem;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.68rem;
+    right: 0.3rem;
+}
+.item{
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    top: 4.5rem;
+    margin-left: -44%;
+    font-size: 0.12rem;
+    display: none;
+}
+.items{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    float: left;
+}
+.active{
+    display: block;
+}
+.top{
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAzCAMAAAD8dJuVAAAAmVBMVEUAAAD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogD/ogBnY4fdAAAAMnRSTlMA+gMf7PLoB3kP356JQRcNCvZJyMK+r2xPJuPb0bOlYzAqEtaVkHJbVjczGrq2PzzMgGD1CKcAAAIGSURBVEjHndbXjqswFEDRY3rvBAg1vZc5//9x95IQJrQR9nqJlLBt2RZy4G88LwMja59vFypba/8ILmLgsE18xdqZKVbFuiV3ppgL69ivgMkpQ7zu12wxpxM0WNtTRtAHNrzuMu8XHCT8b8HUJj7WRJ4l1vHNYGiPQhNLMnV7TvGjpG3VndvGG47yiI8a/jIpdzrHL7epqZ3RHxQRv60m4vhowqA3JezYTcSelhneqdvbAXaJl/FYXiJmfmQmXyv5IdgTwbj9a+gwPJ7Wn5UssW9jDzqr/urS7M1ykT9eG3MpcCj+7lTVqg7bsl7LAt8IpoWeJLCXcCiUmyXZFh8re90XcMvXW4Ytl2x0I8MRpALZUS2zjHYLQaiHFx5cPVhnia5LcMxuFZeKLqTaZ7QtvBg4g5A+tc7pee/TXRGk115DAX0rtS9LyTCx3Z63QNuSA7QK2vjqQMtknbgmp3Sxz3defro46t4sVEe96d0DIc2KFeiKKWIt6cW2ND/ecdCznd0KZ+irZsc6DHCbma3owVA0Mw7tkXhN5q34CGPyWXGwHo09HCA4oEzcHVLzvKS5z6eUh0vdz24kEETJFUkzTsrDOIOgdssL5RB5q/i8vl/sh/q485FpKMUtWGoi+eMPCl8Yq+pkOarDcTLX3H31hwwJeJWiXAPNhMlarZ+dIsPZKmX48g/BpgKcq6Nl9QAAAABJRU5ErkJggg==") no-repeat;
+    width: 0.3rem;
+    height: 0.3rem;
+    background-size: contain;
+    text-align: center;
+    line-height: 0.3rem;
+    transform: rotate(-38deg);
+}
+.items img{
+    width: 0.9rem;
+    height: 0.9rem;
+    margin-top: -0.2rem;
+}
+.name{
+    width: 0.5rem;
+    background: #2955b8;
+    color: #fff;
+    text-align: center;
+    margin-left: 0.2rem;
+    margin-top: -0.1rem;
+}
+.number{
+    width: 0.5rem;
+    /*margin-left: 0.2rem;*/
+    color: #fff;
+    text-align: center;
+    margin: 0.05rem 0.2rem;
+}
+.btn{
+    width: 0.5rem;
+    height: 0.2rem;
+    border-radius: 0.25rem;
+    background: #e94619;
+    border: none;
+    color: #fff;
+    margin-left: 0.2rem;
+}

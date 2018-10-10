@@ -1,0 +1,70 @@
+.logo{
+    width: 1.4rem;
+    height: 0.56rem;
+    background: url("../image/elmeimg.png") no-repeat;
+    background-size: 100%;
+    margin: 0.3rem auto;
+}
+.duanxin a{
+    display: block;
+    width: 0.58rem;
+    color: #2395ff;
+    font-size: 0.14rem;
+    font-weight: 700;
+    border-bottom: 2px solid #2395ff;
+    padding-bottom: 0.04rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.phone{
+    width: 3rem;
+    height: 0.5rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    display: flex;
+    margin: 0.2rem auto;
+    box-sizing: border-box;
+    padding: 0.08rem;
+    border-radius: 3px;
+}
+.phone input{
+    flex: 1;
+    border:none;
+
+    outline: none;
+    font-size: 0.14rem;
+}
+.phone button{
+    font-size: 0.14rem;
+    color: #ccc;
+}
+.denglu input{
+    background: #4cd96f;
+}
+.xieyi{
+    width: 3rem;
+    height: 0.5rem;
+    margin: 0.2rem auto;
+    font-size: 0.14rem;
+    color: #999;
+}
+.xieyi a{
+    color: #2395ff;
+}
+.denglu{
+    height: 0.42rem;
+    background: #4cd96f;
+}
+.denglu input{
+    color: #fff;
+    font-size: 0.16rem;
+    font-weight: 300;
+}
+.guanyu{
+    text-align: center;
+}
+.guanyu a{
+    font-size: 0.12rem;
+    color: #999;
+}
+

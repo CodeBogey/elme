@@ -1,0 +1,298 @@
+header{
+    height: 0.45rem;
+    background: linear-gradient(90deg,#0af,#0085ff);
+    display: flex;
+}
+header .head-wrap{
+    width: 60%;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    padding: 0.1rem;
+}
+.head-wrap span{
+    font-size: 0.16rem;
+    margin: 0 0.05rem;
+}
+.search:before{
+    content: "";
+    width: 100%;
+    height: 0.02rem;
+    background: linear-gradient(90deg,#0af,#0085ff);
+    position: absolute;
+    left: 0;
+    top: -1px;
+}
+.search{
+    height: 0.51rem;
+    background: linear-gradient(90deg,#0af,#0085ff);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 666;
+}
+.search a{
+    width: 92%;
+    height: 0.36rem;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+.search a span{
+    font-size: 0.14rem;
+    color: #bbb;
+    margin: 0 0.05rem;
+}
+.search a .icon-fangdajing{
+    color: #999;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu a{
+    display: block;
+    width: 20%;
+    height: 0.64rem;
+    /*background: red;*/
+    text-align: center;
+    margin-bottom: 0.12rem;
+}
+.menu a img{
+    width: 0.45rem;
+    height: 0.45rem;
+    margin: 0.12rem auto 0.04rem;
+}
+.menu a span{
+    display: block;
+    font-size: 0.12rem;
+    color: #666;
+}
+.menu-img{
+    display: flex;
+    padding: 0.05rem;
+    margin-top: 0.2rem;
+    margin-bottom: -0.05rem;
+    overflow: hidden;
+}
+.menu-img-left , .menu-img-right{
+    width: 50%;
+    height: 1.45rem;
+    background: linear-gradient(0deg,#f4f4f4 5%,#fafafa 95%);
+    box-sizing: border-box;
+    padding: 0.1rem;
+    position: relative;
+    border: 0.05rem solid #fff;
+}
+.menu-img img{
+    width: 1.2rem;
+    height: 0.8rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.menu-img h3{
+    font-size: 0.16rem;
+}
+.menu-img span{
+    display: block;
+    font-size: 0.12rem;
+}
+.menu-img-left span:nth-of-type(1),.menu-img-right span:nth-of-type(1){
+    color: #777;
+    margin: 0.03rem 0 0.06rem 0;
+}
+.menu-img-left span:nth-of-type(2){
+    color: #af8260;
+    font-weight: 700;
+}
+.menu-img-left span:nth-of-type(2) i,.menu-img-right span:nth-of-type(2) i{
+    font-size: 0.12rem;
+}
+.menu-img-right h3,.menu-img-right span:nth-of-type(2) b{
+    color: #e81919;
+}
+.menu-img-right span:nth-of-type(2) {
+      font-weight: 700;
+}
+.swiper-container{
+    width: 3.55rem;
+    height: 0.9rem;
+}
+.swiper-container img{
+    width: 100%;
+    height: 100%;
+}
+.shop-title{
+    height: 0.36rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.1rem;
+}
+.shop-title span{
+    font-size: 0.15rem;
+    margin: 0 0.1rem;
+}
+.shop-title i{
+    font-size: 0.16rem;
+}
+.shop-list{
+    height: 0.4rem;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.06rem;
+    position: sticky;
+    top: 0.5rem;
+    z-index: 100;
+}
+.shop-list a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop-list a span{
+    display: block;
+   font-size: 0.14rem;
+    color: #777;
+}
+.food-list{
+    height: 1.75rem;
+    border-bottom: 1px solid #ccc;
+}
+.food-list-top{
+    /*height: 0.65rem;*/
+    display: flex;
+    padding: 0.1rem;
+    overflow: hidden;
+}
+.food-list-top h3{
+    font-size: 0.16rem;
+}
+.food-list-top .foodimg{
+    width: 0.65rem;
+    height: 0.65rem;
+    margin-right: 0.1rem;
+}
+.food-list-top-right .xingxing{
+    width: 0.5rem;
+    height: 0.1rem;
+    margin-right: 0.1rem;
+}
+.food-list-top .food-list-top-right p{
+    display: flex;
+    align-items: center;
+}
+.food-list-top .food-list-top-right p:nth-of-type(1){
+     margin: 0.06rem 0;
+}
+.food-list-top .food-list-top-right p:nth-of-type(1) span{
+     margin: 0 0.04rem;
+}
+.food-list-top .food-list-top-right p:nth-of-type(2) span{
+    margin: 0 0.03rem;
+}
+.food-list-top .food-list-top-right p:nth-of-type(2) .youhui{
+    margin-right: 0.28rem;
+}
+.food-list-top .food-list-top-right span{
+    font-size: 0.12rem;
+    color: #777;
+}
+.food-list-bottom p span{
+    font-size: 0.1rem;
+    display: block;
+    color: #777;
+}
+.food-list-bottom p:nth-of-type(1) span{
+     border: 1px solid rgb(221, 221, 221);
+     margin-right: 0.08rem;
+}
+.food-list-bottom p{
+    display: flex;
+    margin-left: 0.9rem;
+    align-items: center;
+    margin-bottom: 0.02rem;
+}
+.food-list-bottom p:nth-of-type(1){
+     margin-left: 1rem;
+    margin-bottom: 0.08rem;
+}
+.food-list-bottom .jian,.food-list-bottom .zeng{
+    width: 0.14rem;
+    height: 0.14rem;
+    border-radius: 3px;
+    background: rgb(240, 115, 115);
+    color: #fff;
+    text-align: center;
+    line-height: 0.14rem;
+    margin-right: 0.1rem;
+}
+.food-list-bottom .huodong{
+    margin-left: 0.14rem;
+}
+.food-list-bottom .zeng{
+    background-color: rgb(60, 199, 145);
+}
+ .food-list-wrap .section-none{
+     height: 0.6rem;
+     text-align: center;
+     line-height: 0.6rem;
+     font-size: 0.14rem;
+     font-weight: 700;
+     color: #bbb;
+     margin-bottom: 0.5rem;
+ }
+footer{
+    display: flex;
+    height: 0.5rem;
+    border-top: 1px solid #ccc;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    background: #fff;
+}
+footer a{
+    width: 25%;
+    display: block;
+    color: #8e8e93;
+    text-align: center;
+}
+footer a span,footer a i{
+    margin: 0.03rem 0;
+    display: block;
+}
+footer a span{
+    font-size: 0.12rem;
+}
+footer a i{
+   font-size: 0.22rem !important;
+}
+.food-list-wrap .topnav{
+    width: 0.4rem;
+    height: 0.4rem;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    position: fixed;
+    right: 0.15rem;
+    bottom: 0.8rem;
+    transition: 0.7s;
+    z-index: 9999;
+    text-align: center;
+    line-height: 0.4rem;
+}
+.food-list-wrap .topnav i{
+     font-size: 0.2rem;
+     color: #333;
+     display: block;
+}
+
